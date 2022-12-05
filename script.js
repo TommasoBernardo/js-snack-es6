@@ -3,3 +3,11 @@
 // 3. Creare un array di oggetti di studenti (ossìa oggetti con le proprietà sopra descritte) e mostriamoli.
 
 
+const studet = {
+    firstName : 'piero',
+    lastName : 'marco',
+}
+
+for( let key in student){
+    console.log(student[key]);
+}
