@@ -24,6 +24,6 @@ const animals = [
     {nome:'elefante', famiglia:'elefanti',classe:'mammiferi'},
 ]
 
-const mammiferi = animals.filter(() => animals.classe === 'mammiferi');
+const mammiferi = animals.filter((animals) => animals.classe === 'mammiferi');
 
-console.log(mammiferi)
+console.log(mammiferi);
